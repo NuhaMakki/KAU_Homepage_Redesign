@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+  body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+  
+}
+
+.dropbtn {
+  background-color: #BA9F6A;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  text-align: right; /* Align dropdown content to the left */
+}
+
+/* Different sizes for each dropdown */
+.dropdown-1 .dropdown-content {
+  min-width: 1038px; /* Width of the dropdown content */
+  left: -1px; /* Adjust size as needed to make larger on both sides */
+}
+
+.dropdown-2 .dropdown-content {
+  min-width: 1037px; /* Width of the dropdown content */
+  left: -227px; /* Adjust size as needed to make larger on both sides */
+}
+
+.dropdown-3 .dropdown-content {
+  min-width: 1037px; /* Width of the dropdown content */
+  left: -504px; /* Adjust size as needed to make larger on both sides */
+}
+
+.dropdown-4 .dropdown-content {
+  min-width: 1037px; /* Width of the dropdown content */
+  left: -651px; /* Adjust size as needed to make larger on both sides */
+}
+
+.dropdown-5 .dropdown-content {
+  min-width: 80px; /* Width of the dropdown content */
+  left: -838px; /* Adjust size as needed to make larger on both sides */
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right: 0; /* Position dropdown content to the right */
+  border: 2px solid #BA9F6A; /* Add border color */
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ffffff;
+}
+
+.show {
+  display: block;
+}
+
+/* Specific styles for each dropdown button */
+.dropdown-1 .dropbtn,
+.dropdown-2 .dropbtn,
+.dropdown-3 .dropbtn,
+.dropdown-4 .dropbtn,
+.dropdown-5 .dropbtn {
+  padding: 13px 40px;
+  font-size: 25px;
+}
+
+/* Different word sizes for each dropdown content */
+.dropdown-1 .dropdown-content a,
+.dropdown-2 .dropdown-content a,
+.dropdown-3 .dropdown-content a,
+.dropdown-4 .dropdown-content a,
+.dropdown-5 .dropdown-content a {
+  font-size: 20px;
+
+}
+    
+  .moved-div {
+    position: absolute; 
+    left: 300px; 
+    width: 929px; 
+    height: 100px; 
+    bottom: 280px; 
+    border-radius: 15px; 
+    background-color: rgba(7, 145, 49, 0.57);
+  }
+
+
+</style>
+</head>
+
+<body>
+  <!------------------------------------------------------------------------------------------------->
+  <div>
+    <div style="width: 307px; height: 55px; left: 608px; top: 19px; position: absolute; left: 930px; color: #1B7419; font-size: 32px; font-family: Inter; font-weight: 700; word-wrap: break-word">الخدمات الإلكترونية</div>
+    <div style="width: 358px; height: 63px; left: 560px; top: 15px; position: absolute; text-align: right; color: black; font-size: 16px; font-family: Inter; font-weight: 700; word-wrap: break-word">يمكنك الدخول على الخدمات الإلكترونية التي تحتاجها بطريقة ميسرة وسهلة ونحن نعمل دائمًا على تحسينها والتأكد من جودتها</div>
+    <img style="width: 64px; height: 64px; left: 1210px; top: 10px; position: absolute" src="../public/img/E_Services/p.png" />
+
+   <div style="width: 153px; padding-top: 12px; padding-bottom: 13px; padding-left: 1000 px; padding-right: 16px; left:300px; top: 11px; position: absolute; background: #BA9F6A; border-radius: 62px; overflow: hidden; justify-content: flex-start; align-items: center; gap: 12px; display: inline-flex">
+      <div style="width: 92px; height: 17px; text-align: center; color: white; font-size: 13px; font-family: Inter; font-weight: 700; word-wrap: break-word">دليل الخدمات</div>
+      <a href=https://www.kau.edu.sa/Content-0-AR-285326 > 
+        <img  src="../public/img/E_Services/p4.png"> 
+      </a>
+    
+ </div>
+   
+  </div>
+
+<!------------------------------------------------------------------------------------------------->
+<!-- Dropdown 1 -->
+
+<div class="dropdown dropdown-1">
+  <button onclick="toggleDropdown(event)" class="dropbtn">الخدمات المجتمعيه </button>
+  <div class="dropdown-content">
+    <a href="#">الوعي والتدريب</a>
+    <a href="#">الاستشارات العامة</a>
+    <a href="#">        </a>
+  </div>
+</div>
+
+<!-- Dropdown 2 -->
+<div class="dropdown dropdown-2">
+  <button onclick="toggleDropdown(event)" class="dropbtn">ذوي الاحتياجات الخاصه </button>
+  <div class="dropdown-content">
+    <a href="#">الخدمات الصحية</a>
+    <a href="#">خدمات النقل </a>
+    <a href="#">برامج الصم</a>
+  </div>
+</div>
+
+<!-- Dropdown 3 -->
+<div class="dropdown dropdown-3">
+  <button onclick="toggleDropdown(event)" class="dropbtn">الخرجين </button>
+  <div class="dropdown-content">
+    <a href="#">شهادة تفوق</a>
+    <a href="#">دليل الخرجين  </a>
+    <a href="#">وثيقة التخرج</a>
+  </div>
+</div>
+
+<!-- Dropdown 4 -->
+<div class="dropdown dropdown-4">
+  <button onclick="toggleDropdown(event)" class="dropbtn">زوار الجامعة</button>
+  <div class="dropdown-content">
+    <a href="#">الجولة الافتراضية</a>
+    <a href="#">مواعيد الزياره </a>
+    <a href="#">      </a>
+  </div>
+</div>
+
+<!-- Dropdown 5 -->
+<div class="dropdown dropdown-5">
+  <button onclick="toggleDropdown(event)" class="dropbtn">منسوبو الجامعة</button>
+  <div class="dropdown-content show">
+    <a href="#"> الخدمات الأكاديمية </a>
+    <a href="#">الخدمات الإدارية</a>
+    <a href="#">الخدمات العامة</a>
+  </div>
+</div>
+
+<script>
+function toggleDropdown(event) {
+  var content = event.target.nextElementSibling;
+
+  // Check if the dropdown content is already visible
+  var isVisible = content.classList.contains('show');
+  
+  // Close all dropdowns
+  document.querySelectorAll('.dropdown-content').forEach(function(item) {
+    item.classList.remove('show');
+  });
+
+  // If the clicked dropdown was not visible, show it
+  if (!isVisible) {
+    content.classList.add('show');
+  }
+}
+
+// Prevent closing the dropdown when clicking inside the dropdown content
+document.querySelectorAll('.dropdown-content').forEach(function(content) {
+  content.addEventListener('click', function(event) {
+    event.stopPropagation();
+  });
+});
+
+// Make Dropdown 5 appear automatically
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelector('.dropdown-5 .dropdown-content').classList.add('show');
+});
+</script>
+<!----------------------------------------------------------------------------------------------->
+
+ 
+
+<!----------------------------------------------------------------------------------------------->
+</body>
+</html>

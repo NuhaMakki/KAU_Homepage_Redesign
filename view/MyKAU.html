@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>App Install Box</title>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(150, 147, 147);
+  }
+
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;
+    padding: 20px;
+    border-radius: 15px;
+    background: linear-gradient(135deg, rgba(7, 145, 49, 0.57), rgba(0, 90, 0, 0.57));
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .buttons {
+    display: flex;
+    gap: 20px;
+  }
+
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 50px;
+    padding: 10px;
+    border: 2px #ffffff solid;
+    border-radius: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+
+  .button img {
+    margin-right: 10px;
+  }
+
+
+  .logo {
+    width: 120px;
+    height: 144px;
+  }
+
+  .texta-container {
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    padding-left: 20px;
+    white-space: nowrap;
+
+  }
+
+  .text-container {
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .app-name {
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  
+</style>
+</head>
+<body>
+
+<div class="box">
+  <div class="buttons">
+    <a href="https://apps.apple.com/us/app/mykau/id623874535" class="button apple">
+      <img src="../public/img/MyKau/p2.png" alt="Apple Logo" width="20" height="30">
+      <div class="text-container">
+        <div>تنزيل من</div>
+        <div>App Store</div>
+      </div>
+    </a>
+    <a href="https://play.google.com/store/apps/details?id=com.kau.mykau" class="button google">
+      <img src="../public/img/MyKau/p3.png" alt="Google Play Logo" width="20" height="30">
+      <div class="text-container">
+        <div>تنزيل من</div>
+        <div>Google Play</div>
+      </div>
+    </a>
+  </div>
+  <div class="texta-container app-name">
+    MYKAU تطبيق 
+  </div>
+  <div class="logo-container">
+    <img src="../public/img/MyKau/p1.png" alt="Logo" class="logo">
+  </div>
+</div>
+
+</body>
+</html>
