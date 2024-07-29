@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KAU</title>
+</head>
+<body>
+    <iframe id="news-iframe" src="news_events.html" width="100%" frameborder="0"></iframe>
+    <iframe id="mykau-iframe" src="MyKAU.html" width="100%" frameborder="0"></iframe>
+
+    <script>
+      window.onload = function() {
+        var newsIframe = document.getElementById('news-iframe');
+        newsIframe.height = newsIframe.contentWindow.document.body.scrollHeight;
+
+        var mykauIframe = document.getElementById('mykau-iframe');
+        mykauIframe.height = mykauIframe.contentWindow.document.body.scrollHeight;
+      }
+    </script>
+</body>
+</html>

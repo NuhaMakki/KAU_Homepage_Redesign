@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>كليات جامعة الملك عبد العزيز</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Inter, sans-serif;
+        }
+
+        .container {
+            width: 80%;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            padding: 8px;
+            border: none;
+            border-radius: 8px;
+            background-color: #D9D9D9;
+            color: black;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+            font-size: 16px;
+            font-weight: normal;
+        }
+
+        .btn.active {
+            background-color: #B8B8B8;
+            color: white;
+        }
+
+        .content-section {
+            display: none;
+            text-align: center;
+        }
+
+        .content-section.visible {
+            display: block;
+        }
+
+        .columns {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .column {
+            width: 30%;
+            max-width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .card {
+            margin: 10px 0;
+            width: 100%;
+        }
+
+        .img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .img-wide {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .card-title {
+            margin-top: 10px;
+            font-weight: normal;
+        }
+
+        .title-box {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #D9D9D9;
+            border: 1px solid black;
+            border-radius: 10px;
+            text-align: center;
+            color: black;
+            font-weight: bold;
+            font-size: 24px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        #health-colleges .card img,
+        #science-colleges .card img {
+            max-width: 90%;
+            height: auto;
+        }
+
+        #science-colleges .card img[src="../public/img/facilty/15.jpg"],
+        #science-colleges .card img[src="../public/img/facilty/14.jpg"] {
+            max-width: 70%;
+            max-height: 180px;
+            margin-bottom: 20px;
+        }
+
+        #science-colleges .card img[src="../public/img/facilty/13.jpg"] {
+            margin-bottom: 60px; /* زيادة المسافة السفلية بشكل ملحوظ */
+        }
+
+        #admin-colleges .card img[src="../public/img/facilty/20.jpg"] {
+            max-width: 80%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <section id="section-1" class="section">
+        <div class="container">
+            <div class="buttons">
+                <button class="btn" onclick="toggleSection('institutes')">المعاهد</button>
+                <button class="btn" onclick="toggleSection('health-colleges')">الكليات الصحية</button>
+                <button class="btn" onclick="toggleSection('science-colleges')">الكليات العلمية</button>
+                <button class="btn" onclick="toggleSection('admin-colleges')">الكليات الإدارية و الإنسانية</button>
+            </div>
+            <div id="institutes" class="content-section">
+                <div class="title-box">المعاهد</div>
+                <div class="columns">
+                    <div class="column">
+                        <div class="card">
+                            <img src="../public/img/facilty/24.jpg" class="img img-wide" alt="معهد الاقتصاد الإسلامي">
+                            <div class="card-title">معهد الاقتصاد الإسلامي</div>
+                        </div>
+                        <div class="card">
+                            <img src="../public/img/facilty/23.jpg" class="img img-wide" alt="معهد اللغة الإنجليزية">
+                            <div class="card-title">معهد اللغة الإنجليزية</div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <img src="../public/img/facilty/22.jpg" class="img img-wide" alt="معهد اللغة العربية للناطقين بغيرها">
+                            <div class="card-title">معهد اللغة العربية للناطقين بغيرها</div>
+                        </div>
+                        <div class="card">
+                            <img src="../public/img/facilty/25.jpg" class="img img-wide" alt="معهد السياحة">
+                            <div class="card-title">معهد السياحة</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="health-colleges" class="content-section">
+                <div class="title-box">الكليات الصحية</div>
+                <div class="columns">
+                    <div class="column">
+                        <div class="card">
+                            <img src="../public/img/facilty/1.jpg" class="img" alt="الطب البشري">
+                            <div class="card-title">الطب البشري</div>
+                        </div>
+                        <div class="card">
+                            <img src="../public/img/facilty/3.jpg" class="img" alt="الصيدلة">
+                            <div class="card-title">الصيدلة</div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <img src="../public/img/facilty/4.jpg" class="img" alt="العلوم الطبية التطبيقية">
+                            <div class="card-title">العلوم الطبية التطبيقية</div>
+                        </div>
+                        <div class="card">
+                            <img src="../public/img/facilty/6.jpg" class="img" alt="طب الأسنان">
+                            <div class="card-title">طب الأسنان</div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <img src="../public/img/facilty/2.jpg" class="img" alt="علوم التأهيل الطبي">
+                            <div class="card-title">علوم التأهيل الطبي</div>
+                        </div>
+                        <div class="card">
+                            <img src="../public/img/facilty/5.jpg" class="img" alt="التمريض">
+                            <div class="card-title">التمريض</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="science-colleges" class="content-section">
+                <div class="title-box">الكليات العلمية</div>
+                <div class="columns">
+                    <div class="column">
+                        <div class="card">
+                            <img src="../public/img/facilty/8.jpg" class="img" alt="العلوم">
+                            <div class="card-title">العلوم</div>
+                        </div>
+                        <div class="card">
+                            <img src="../public/img/facilty/7.jpg" class="img" alt="الهندسة">
+                            <div class="card-title">الهندسة</div>
+                        </div>
+                        <div class="card">
+                            <img src="../public/img/facilty/9.jpg" class="img" alt="الإقتصاد و الإدارة">
+                            <div class="card-title">الإقتصاد و الإدارة</div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <img src="../public/img/facilty/12.jpg" class="img" alt="علوم الأرض">
+                            <div class="card-title">علوم الأرض</div>
+                        </div>
+                        <div class="card">
+                            <img src="../public/img/facilty/11.jpg" class="img" alt="علوم البحار">
+                            <div class="card-title">علوم البحار</div>
+                        </div>
+                        <div class="card">
+                            <img src="../public/img/facilty/10.jpg" class="img" alt="الحاسبات و تقنية المعلومات">
+                            <div class="card-title">الحاسبات و تقنية المعلومات</div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <img src="../public/img/facilty/13.jpg" class="img" alt="العمارة و التخطيط">
+                            <div class="card-title">العمارة و التخطيط</div>
+                        </div>
+                        <div class="card">
+                            <img src="../public/img/facilty/15.jpg" class="img" alt="الدراسات البحرية">
+                            <div class="card-title">الدراسات البحرية</div>
+                        </div>
+                        <div class="card">
+                            <img src="../public/img/facilty/14.jpg" class="img" alt="العلوم البيئية">
+                            <div class="card-title">العلوم البيئية</div>
+                        </div>
+                        <div class="card">
+                            <img src="../public/img/facilty/16.jpg" class="img" alt="علوم الإنسان و التصاميم">
+                            <div class="card-title">علوم الإنسان و التصاميم</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="admin-colleges" class="content-section">
+                <div class="title-box">الكليات الإدارية و الإنسانية</div>
+                <div class="columns">
+                    <div class="column">
+                        <div class="card">
+                            <img src="../public/img/facilty/17.jpg" class="img img-wide" alt="الحقوق">
+                            <div class="card-title">الحقوق</div>
+                        </div>
+                        <div class="card">
+                            <img src="../public/img/facilty/18.jpg" class="img img-wide" alt="الأعمال">
+                            <div class="card-title">الأعمال</div>
+                        </div>
+                        <div class="card">
+                            <img src="../public/img/facilty/19.jpg" class="img img-wide" alt="الأداب و العلوم الإنسانية">
+                            <div class="card-title">الأداب و العلوم الإنسانية</div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <img src="../public/img/facilty/21.jpg" class="img img-wide" alt="السياحة">
+                            <div class="card-title">السياحة</div>
+                        </div>
+                        <div class="card">
+                            <img src="../public/img/facilty/20.jpg" class="img img-wide" alt="الإتصال و الإعلام">
+                            <div class="card-title">الإتصال و الإعلام</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        function toggleSection(sectionId) {
+            const sections = document.querySelectorAll('.content-section');
+            sections.forEach(section => {
+                section.classList.remove('visible');
+            });
+
+            const buttons = document.querySelectorAll('.btn');
+            buttons.forEach(button => {
+                button.classList.remove('active');
+            });
+
+            const section = document.getElementById(sectionId);
+            if (section) {
+                section.classList.add('visible');
+            }
+
+            const button = document.querySelector(`.btn[onclick="toggleSection('${sectionId}')"]`);
+            if (button) {
+                button.classList.add('active');
+            }
+        }
+    </script>
+</body>
+</html>

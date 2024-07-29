@@ -1,0 +1,347 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <style>
+        .Footer {
+            background-image: url("../public/img/footer/Footer.png");
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .div-2 {
+            display: flex;
+            width: 100%;
+            padding-top: 6px;
+            flex-direction: column;
+        }
+
+        @media (max-width: 991px) {
+            .div-2 {
+                max-width: 100%;
+            }
+        }
+
+
+        .img {
+            position: absolute;
+            inset: 0;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .Top {
+            position: relative;
+            align-self: stretch;
+            display: flex;
+            width: 100%;
+            align-items: center;
+            
+            justify-content: space-between;
+        }
+
+        @media (max-width: 991px) {
+            .div-4 {
+                max-width: 100%;
+                flex-wrap: wrap;
+            }
+        }
+
+        .Left-Line {
+            align-self: stretch;
+            width: 194px;
+            height: 4px;
+            margin: auto 0;
+            border: 3px solid rgba(255, 255, 255, 1);
+        }
+
+        .social-media {
+            align-self: stretch;
+            display: flex;
+            align-items: start;
+            gap: 20px;
+            justify-content: space-between;
+        }
+
+        @media (max-width: 991px) {
+            .social-media {
+                max-width: 100%;
+                flex-wrap: wrap;
+            }
+        }
+
+        .YouTube {
+            aspect-ratio: 1;
+            object-fit: auto;
+            object-position: center;
+            width: 53px;
+        }
+
+        .X {
+            aspect-ratio: 1.04;
+            object-fit: auto;
+            object-position: center;
+            width: 52px;
+            margin-top: 4px;
+        }
+
+        .Snapchat {
+            aspect-ratio: 1.06;
+            object-fit: auto;
+            object-position: center;
+            width: 53px;
+            border-radius: 11px;
+            margin-top: 5px;
+        }
+
+        .Instagram {
+            aspect-ratio: 1.02;
+            object-fit: auto;
+            object-position: center;
+            width: 51px;
+            margin-top: 5px;
+        }
+
+        .in {
+            aspect-ratio: 1.02;
+            object-fit: auto;
+            object-position: center;
+            width: 52px;
+            margin-top: 4px;
+        }
+
+        .Right-Line {
+            align-self: stretch;
+            width: 194px;
+            height: 4px;
+            margin: auto 0;
+            border: 3px solid rgba(255, 255, 255, 1);
+        }
+
+        .Content {
+            display: flex;
+            justify-content: space-around;
+            
+            justify-content: space-between;
+            margin-top: 15px; 
+
+
+        }
+
+
+        .column-left {
+            flex: 1;
+            padding: 10px;
+            gap: 200px;
+            text-align: center;
+            justify-content: left;
+            margin-left: 20px;
+        }
+        .column-center {
+            flex: 1;
+            padding: 10px;
+            gap: 200px;
+            text-align: center;
+            justify-content: center;
+            margin-right: 20px;
+        }
+        .column-right {
+            flex: 1;
+            padding: 10px;
+            gap: 200px;
+            text-align: center;
+            justify-content: right;
+            margin-right: 20px;
+        } 
+        
+
+        .about {
+            color: rgba(232, 226, 176, 1);
+            font: 24px Inter, sans-serif;
+        }
+
+        .GenralInfo {
+            font-family: Inter, sans-serif;
+            margin-top: 20px;
+            align-self: stretch;
+            color: white;
+            text-align: center; 
+        }
+
+        .plan, .Credits, .openData, .jobs, .Graduates, .Employees {
+            font-family: Inter, sans-serif;
+            align-self: stretch;
+            margin-top: 10px;
+            color: white;
+
+        }
+
+
+
+
+
+        .Admission {
+            color: rgba(232, 226, 176, 1);
+            font: 24px Inter, sans-serif;
+        }
+
+        .div-C1, .div-C2, .div-C3, .div-C4 {
+            font-family: Inter, sans-serif;
+            align-self: stretch;
+            margin-top: 10px;
+            color: white;
+        }
+
+
+
+        .ContactInfo{
+        color: rgba(232, 226, 176, 1);
+        font: 24px Inter, sans-serif;
+        }
+
+        .div-L1 {
+            font-family: Inter, sans-serif;
+            align-self: stretch;
+            margin-top: 10px;
+            color: white;
+        }
+        .Buttom {
+            position: relative;
+            display: flex;
+            margin-top: 79px;
+            width: 100%;
+            color: rgba(255, 255, 255, 1);
+            font-weight: 700;
+            text-align: center;     
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        @media (max-width: 991px) {
+            .Buttom {
+                max-width: 100%;
+                flex-wrap: wrap;
+                margin-top: 40px;
+            }
+        }
+
+        .div-Buttom {
+            display: flex;
+            gap: 19px;
+            font-size: 11px;
+        }
+
+        @media (max-width: 991px) {
+            .div-Buttom {
+                max-width: 100%;
+                flex-wrap: wrap;
+            }
+        }
+
+        .div-B1 {
+            font-family: Inter, sans-serif;
+        }
+
+        .div-B2 {
+            font-family: Inter, sans-serif;
+            margin: auto 0;
+        }
+
+        .div-B3 {
+            font-family: Inter, sans-serif;
+            flex-grow: 1;
+            flex-basis: auto;
+        }
+
+        .Kau2022 {
+            justify-content: center;
+            font: 300 14px Inter, sans-serif; 
+            align-items: center;
+            padding-right: 50px; 
+
+        }
+
+        .Contact-us {
+            font: 15px Inter, sans-serif;
+            justify-content: right;
+            margin-right: 20px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="Footer">
+        <div class="div-2">
+            <div class="Top">
+                <div class="Left-Line"></div>
+                <div class="social-media">
+                    <img loading="lazy" src="../public/img/footer/YouTube.png" class="YouTube" />
+                    <img loading="lazy" src="../public/img/footer/X.png" class="X" />
+                    <img loading="lazy" src="../public/img/footer/Snapchat.png" class="Snapchat" />
+                    <img loading="lazy" src="../public/img/footer/Instagram.png" class="Instagram" />
+                    <img loading="lazy" src="../public/img/footer/in.png" class="in" />
+                </div>
+                <div class="Right-Line"></div>
+            </div>
+
+            <div class="Content">
+                    <div class="column-left">
+
+                        <div class="ContactInfo">مركز التواصل والمعلومات</div>
+                        <div class="div-L1">
+                            <br />
+                            MyKau-800-11
+                            <br />
+                            69528-800-11
+                            <br />
+                        </div>
+
+                    </div>
+
+                    <div class="column-center">
+                        
+                            <div class="Admission">القبول والتسجيل</div>
+                            <div class="div-C1"> القبول
+                               
+                            </div>
+                            <div class="div-C2">برامج الجامعة الدراسية</div>
+                            <div class="div-C3">المنح الدراسية للطلبة الدوليين</div>
+                            <div class="div-C4">الاجراءات واللوائح العامة</div>
+                        
+                    </div>
+
+                    <div class="column-right">
+                        
+                            <div class="about">عن الجامعة</div>
+                            <div class="GenralInfo">معلومات عامة</div>
+                            <div class="plan">الخطة الاستراتيجية</div>
+                            <div class="Credits">الاعتمادات الأكاديمية</div>
+                            <div class="openData">البيانات المفتوحة</div>
+                            <div class="jobs">التوظيف</div>
+                            <div class="Graduates">الخريجون</div>
+                            <div class="Employees">الموظفون</div>
+                        
+                    </div>
+                
+            </div>
+
+            <div class="Buttom">
+                <div class="div-Buttom">
+                    <div class="div-B1">سياسة الخصوصية</div>
+                    <div class="div-B2">الشروط والاستخدام</div>
+                    <div class="div-B3">سياسة النشر الألكتروني</div>
+                </div>
+                <div class="Kau2022">
+                    جميع الحقوق محفوظة لجامعة الملك عبدالعزيز 2022
+                </div>
+                <div class="Contact-us">اتصل بنا</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

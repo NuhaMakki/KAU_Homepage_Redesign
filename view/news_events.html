@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فعاليات وأخبار</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            background-color: #f8f8f8;
+            margin: 0;
+            direction: rtl;
+            padding: 20px;
+        }
+        .section h2 {
+            color: #009900;
+            text-align: right;
+            font-size: 37px;
+            font-weight: bold;
+            position: relative;
+        }
+        .section h2::before {
+            content: url('../public/img/news_events/Line.png'); /* Replace 'path/to/your/icon.png' with the actual path to your icon image */
+            display: inline-block;
+            width: 20px; /* Adjust the width of the icon if necessary */
+            height: 2px;
+            margin-right: 10px; /* Adjust the spacing between the icon and the text */
+        }
+
+        .news {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            border: 1px solid #009900;
+            height: 500px; /* Fixed height for the events section */
+            overflow-y: auto;
+        }
+        .events {
+            background-color: #f4f4f4;
+            border-radius: 10px;
+            padding: 20px;
+            height: 500px; /* Fixed height for the events section */
+            overflow-y: auto;
+            border: 1px solid #c8c7c7;
+        }
+        .news-item, .event {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 10px 0;
+        }
+        .news-item {
+            border-bottom: 1px solid #009900;
+        }
+        .event {
+            border-bottom: 1px solid #c8c7c7;
+            
+        }
+        .news-item:last-child, .event:last-child {
+            margin-bottom: 0;
+        }
+        .news-image img {
+            width: 220px;
+            height: 125px;
+            border-radius: 10px;
+            margin-left: 10px;
+        }
+        .news-info, .event-info {
+            flex: 1;
+        }
+        .news-info p, .event-info p {
+            margin: 0 0 5px;
+        }
+        .event-date {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            background-color: #f9f9f9;
+            padding: 10px;
+            padding-right:30px;
+            padding-left:30px;
+            border-radius: 10px;
+            margin-left: 10px;
+            border: 1px solid #c8c7c7;
+        }
+        .time {
+            color: #8c8a8a; 
+            font-weight: bold;
+        }
+        .time::before {
+            content: url('../public/img/news_events/clock.png'); /* URL to the clock icon image */
+            display: inline-block;
+            width: 20px; /* Adjust the width of the icon */
+            height: 20px; /* Adjust the height of the icon */
+            margin-right: 5px; /* Adjust the spacing between the icon and the time text */
+        }
+        .view-all {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 14px;
+            color: #009900;
+            cursor: pointer;
+            font-weight: bold;
+            display: block;
+            text-decoration: none;
+        }
+        .view-all:hover {
+            text-decoration: underline;
+            color: #009900;
+        }
+        .bold-green-text {
+            font-size: 18px;
+            font-weight: bold;
+            direction: rtl;
+            color: #009900; 
+        }
+        .bold-black-text {
+            font-size: 20px;
+            direction: rtl;
+            font-weight: bold;
+            color: #000000; 
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 section">
+                <h2>احدث الأخبار</h2>
+                <div class="news">
+                    <div class="news-item">
+                        <div class="news-image">
+                            <img src="../public/img/news_events/news1.png" alt="News Image 1">
+                        </div>
+                        <div class="news-info">
+                            <p class="bold-black-text">برنامج موهبة الإثرائي "موهبة 2024" بجامعة "المؤسس"</p>
+                            <p class="bold-green-text">يختتم فعالياته باستعراض مشاريع الموهوين في 7 مجالات علمية</p>
+                        </div>
+                    </div>
+                    <div class="news-item">
+                        <div class="news-image">
+                            <img src="../public/img/news_events/news2.png" alt="News Image 2">
+                        </div>
+                        <div class="news-info">
+                            <p class="bold-black-text">برنامج موهبة الإثرائي "موهبة 2024" بجامعة "المؤسس"</p>
+                            <p class="bold-green-text">يختتم فعالياته باستعراض مشاريع الموهوين في 7 مجالات علمية</p>
+                        </div>
+                    </div>
+                    <a href="https://www.kau.edu.sa/news.aspx?Type=lst&Site_ID=0&lng=ar" class="view-all">عرض الكل</a>
+                </div>
+            </div>
+            <div class="col-md-6 section">
+                <h2>الفعاليات</h2>
+                <div class="events">
+                    <div class="event">
+                        <div class="event-date">
+                            <div>4</div>
+                            <div>مايو</div>
+                            <div>2024</div>
+                        </div>
+                        <div class="event-info">
+                            <p class="bold-green-text">"لقاء الخريجات 2024"</p>
+                            <p class="time">10 صباحا إلى 5 مساءً</p>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="event-date">
+                            <div>7</div>
+                            <div>يونيو</div>
+                            <div>2024</div>
+                        </div>
+                        <div class="event-info">
+                            <p class="bold-green-text">"الملتقى الثالث لتمكين الطلاب في البحث والابتكار"</p>
+                            <p class="time">9 صباحا إلى 2 مساءً</p>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="event-date">
+                            <div>26</div>
+                            <div>اكتوبر</div>
+                            <div>2024</div>
+                        </div>
+                        <div class="event-info">
+                            <p class="bold-green-text">"فعالية أكثر من صيدلي بنسختها العاشرة"</p>
+                            <p class="time">9 صباحا إلى 2 مساءً</p>
+                        </div>
+                    </div>
+                    <a href="https://www.kau.edu.sa/KAUEvents.aspx?lng=ar&site_id=0" class="view-all">عرض جميع الفعاليات</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toggle Content</title>
+  <style>
+    .div-14 {
+      border-radius: 40px;
+      background-color: rgba(27, 215, 68, 0.7);
+      align-self: center;
+      display: flex;
+      margin-top: 120px;
+      width: 821px;
+      max-width: 100%;
+      align-items: center;
+      font-size: 16px;
+      color: rgba(0, 0, 0, 1);
+      font-weight: 700;
+      text-align: center;
+      justify-content: center;
+      padding: 13px 60px;
+      margin-left: 275px;/* Adjusted margin-left */
+    }
+    @media (max-width: 991px) {
+      .div-14 {
+        padding: 0 20px;
+        margin-left: 20px;
+      }
+    }
+    .div-4 {
+      border-radius: 40px;
+      background-color: #D9D9D9;
+      align-self: center;
+      display: flex;
+      margin-top: 120px;
+      width: 821px;
+      max-width: 100%;
+      align-items: center;
+      font-size: 16px;
+      color: rgba(0, 0, 0, 1);
+      font-weight: 700;
+      text-align: center;
+      justify-content: center;
+      padding: 13px 60px;
+      margin-left: 275px;/* Adjusted margin-left */
+    }
+    @media (max-width: 991px) {
+      .div-4 {
+        padding: 0 20px;
+        margin-left: 20px; /* Adjusted for smaller screens */
+      }
+    }
+    .div-5 {
+      display: flex;
+      margin-left: 0px;
+      width: 314px;
+      max-width: 100%;
+      gap: 20px;
+      justify-content: space-between;
+    }
+    .button {
+      font-family: Inter, sans-serif;
+      border-radius: 40px;
+      background-color: rgba(251, 248, 248, 1);
+      padding: 13px 49px;
+      cursor: pointer;
+    }
+    @media (max-width: 991px) {
+      .button {
+        padding: 0 20px;
+      }
+    }
+    .active {
+      background-color: #bab8b8;
+      color: #fff;
+    }
+    .content {
+      display: none;
+      margin-top: 20px;
+      text-align: center;
+      font-size: 18px;
+      background-color: rgb(255, 255, 255);
+    }
+    .content.active {
+      display: block;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+  }
+
+  .slider-container {
+      position: relative;
+      width: 100%;
+      max-width: 800px; /* Adjust as needed */
+      margin: auto;
+      overflow: hidden;
+  }
+
+  .slider {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+  }
+
+  .slide {
+      flex: 0 0 auto; /* Allows slides to retain their width */
+      width: 300px; /* Card width */
+      margin-right: 150px; /* Space between cards */
+  }
+
+  .slide:last-child {
+      margin-right: 0; /* Remove margin from the last slide */
+  }
+
+  .card {
+      width: 100%; /* Full width of the .slide */
+      height: 400px; /* Card height */
+      border: 2px solid #1B7419; /* Red border */
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      border-radius: 20px;
+      overflow: hidden;
+      box-sizing: border-box; /* Ensure padding and border are included in the width and height */
+  }
+
+  .card img {
+      width: 100%;
+      height: 50%; /* Takes up the top half of the card */
+      object-fit: cover;
+  }
+
+  .card .text {
+      height: 50%; /* Takes up the bottom half of the card */
+      display: flex;
+      align-items: flex-start; /* Aligns text to the top */
+      justify-content: flex-end; /* Aligns text to the right */
+      font-size: 20px;
+      color: #000;
+      background-color: #fff;
+      padding: 10px;
+      padding-top: 15px; /* Increase top padding to push text up */
+      box-sizing: border-box;
+      text-align: right;
+      overflow: hidden; /* Prevents text overflow */
+  }
+
+  .prev, .next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      z-index: 100;
+  }
+
+  .prev {
+      left: 10px;
+  }
+
+  .next {
+      right: 10px;
+  }
+
+  .slider1 {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+  }
+
+  .slide1 {
+      flex: 0 0 auto; /* Allows slides to retain their width */
+      width: 300px; /* Card width */
+      margin-right: 150px; /* Space between cards */
+  }
+
+  .slide1:last-child {
+      margin-right: 0; /* Remove margin from the last slide */
+  }
+
+  .info-card1 {
+      width: 100%; /* Full width of the .slide1 */
+      height: 400px; /* Card height */
+      border: 2px solid #1B7419; /* Red border */
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      border-radius: 20px;
+      overflow: hidden;
+      box-sizing: border-box; /* Ensure padding and border are included in the width and height */
+  }
+
+  .info-card1 img {
+      width: 100%;
+      height: 50%; /* Takes up the top half of the card */
+      object-fit: cover;
+  }
+
+  .info-card1 .text1, .info-card1 .textt1 {
+      height: 50%; /* Takes up the bottom half of the card */
+      display: flex;
+      align-items: flex-start; /* Aligns text to the top */
+      justify-content: flex-end; /* Aligns text to the right */
+      font-size: 20px;
+      color: #000;
+      background-color: #fff;
+      padding: 10px;
+      box-sizing: border-box;
+      text-align: right; /* Aligns text to the right inside the container */
+      overflow: hidden; /* Prevents text overflow */
+  }
+
+  .prev1, .next1 {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      z-index: 100;
+  }
+
+  .prev1 {
+      left: 10px;
+  }
+
+  .next1 {
+      right: 10px;
+  }
+  </style>
+</head>
+<body>
+  <div class="div-4">
+    <div class="div-5">
+      <div class="button" id="awardsButton">الجوائز</div>
+      <div class="button active" id="achievementsButton">الإنجازات</div>
+    </div>
+  </div>
+  <!----------------------------------محتوى الجوائز---------------------------------------------------------------------------------->
+  <div class="content" id="awardsContent">
+    <div class="slider-container">
+      <div class="slider1">
+          <div class="slide1">
+              <div class="info-card1">
+                  <img src="../public/img/achievement/b2.png" alt="Card Image 1">
+                  <div class="text1">فريق من طلاب #جامعة_الملك_عبدالعزيز يحقق المركز الثالث في مسابقة الجمعية الأمريكية لجيولوجيا البترول (AAPG IBA 2024)</div>
+              </div>
+          </div>
+          <div class="slide1">
+              <div class="info-card1">
+                  <img src="../public/img/achievement/b1.png" alt="Card Image 2">
+                  <div class="textt1">حقَّق فريق جامعة الملك عبدالعزيز المركز السادس عشر في المسابقة الدولية للطائرات المُسيَّرة بدون طيار (SUAS 2024)، التي أُقيمت في ولاية ماريلاند بالولايات المتحدة الأمريكية، بمشاركة 70 فريقاً طلابياً من مختلف جامعات العالم.</div>
+              </div>
+          </div>
+      </div>
+      <button class="prev1">❮</button>
+      <button class="next1">❯</button>
+  </div>
+  </div>
+  <!-------------------------------------------------------------------------------------------------------------------->
+
+  <!---------------محتوى الإنجازات ----------------------------------------------------------------------------------------------------->
+  <div class="content active" id="achievementsContent">
+    <div class="slider-container">
+      <div class="slider">
+          <div class="slide">
+              <div class="card">
+                  <img src="../public/img/achievement/a1.png" alt="Card Image 1">
+                  <div class="text">حصل طالب على ميداليه دولية في المعرض الدولي الخامس والثلاثين للاختراع والابتكار والتكنولوجيا، #آيتكس_2024 #ITEX_2024.</div>
+              </div>
+          </div>
+          <div class="slide">
+              <div class="card">
+                  <img src="../public/img/achievement/a2.png" alt="Card Image 2">
+                  <div class="text">الأمير سعود_بن_جلوي محافظ جدة يكرّم جامعة_الملك_عبدالعزيز ضمن الجهات المشاركة في اعتماد مدينة جدة الصحية</div>
+              </div>
+          </div>
+      </div>
+      <button class="prev">❮</button>
+      <button class="next">❯</button>
+  </div>
+  </div>
+ <!-------------------------------------------------------------------------------------------------------------------->
+  <script>
+    document.getElementById('awardsButton').addEventListener('click', function() {
+      document.getElementById('awardsContent').classList.add('active');
+      document.getElementById('achievementsContent').classList.remove('active');
+      this.classList.add('active');
+      document.getElementById('achievementsButton').classList.remove('active');
+    });
+
+    document.getElementById('achievementsButton').addEventListener('click', function() {
+      document.getElementById('awardsContent').classList.remove('active');
+      document.getElementById('achievementsContent').classList.add('active');
+      this.classList.add('active');
+      document.getElementById('awardsButton').classList.remove('active');
+    });
+
+    let currentIndex = 0;
+    const slides = document.querySelectorAll('.slide');
+    const totalSlides = slides.length;
+
+    document.querySelector('.next').addEventListener('click', () => {
+        if (currentIndex < totalSlides - 1) {
+            currentIndex++;
+        } else {
+            currentIndex = 0;
+        }
+        updateSlider();
+    });
+
+    document.querySelector('.prev').addEventListener('click', () => {
+        if (currentIndex > 0) {
+            currentIndex--;
+        } else {
+            currentIndex = totalSlides - 1;
+        }
+        updateSlider();
+    });
+
+    function updateSlider() {
+        const newTransformValue = -currentIndex * (300 + 20); // 300 is the width of the card, 20 is the margin
+        document.querySelector('.slider').style.transform = `translateX(${newTransformValue}px)`;
+    }
+
+    let currentIndex1 = 0;
+    const slides1 = document.querySelectorAll('.slide1');
+    const totalSlides1 = slides1.length;
+
+    document.querySelector('.next1').addEventListener('click', () => {
+        if (currentIndex1 < totalSlides1 - 1) {
+            currentIndex1++;
+        } else {
+            currentIndex1 = 0;
+        }
+        updateSlider1();
+    });
+
+    document.querySelector('.prev1').addEventListener('click', () => {
+        if (currentIndex1 > 0) {
+            currentIndex1--;
+        } else {
+            currentIndex1 = totalSlides1 - 1;
+        }
+        updateSlider1();
+    });
+
+    function updateSlider1() {
+        const newTransformValue1 = -currentIndex1 * (300 + 50); // 300 is the width of the card, 50 is the margin
+        document.querySelector('.slider1').style.transform = `translateX(${newTransformValue1}px)`;
+    }
+  </script>
+</body>
+</html>
