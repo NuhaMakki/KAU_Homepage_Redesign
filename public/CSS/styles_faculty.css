@@ -1,0 +1,149 @@
+.faculty-section body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Inter, sans-serif;
+}
+
+.faculty-section .container {
+    width: 80%;
+}
+
+.faculty-section .buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+    direction: ltr;
+}
+
+.faculty-section .btn {
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    background-color: #D9D9D9;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.faculty-section .btn.active {
+    background-color: #B8B8B8;
+    color: white;
+}
+
+.faculty-section .content-section {
+    display: none;
+    text-align: center;
+}
+
+.faculty-section .content-section.visible {
+    display: block;
+}
+
+.faculty-section .columns {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.faculty-section .column {
+    width: 30%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faculty-section .card {
+    margin: 10px 0;
+    width: 100%;
+}
+
+.faculty-section .img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.faculty-section .img-wide {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.faculty-section .card-title {
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+.faculty-section .title-box {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #D9D9D9;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#health-colleges .card img,
+#science-colleges .card img {
+    max-width: 90%;
+    height: auto;
+}
+
+#science-colleges .card img[src="15.jpg"],
+#science-colleges .card img[src="14.jpg"] {
+    max-width: 70%;
+    max-height: 180px;
+    margin-bottom: 20px;
+}
+
+#science-colleges .card img[src="13.jpg"] {
+    margin-bottom: 60px;
+}
+
+#science-colleges .card img[src="12.jpg"] {
+    max-width: 70%;
+    max-height: 180px;
+    margin-bottom: 20px;
+}
+
+#science-colleges .card img[src="9.jpg"] {
+    max-width: 70%;
+    max-height: 150px;
+    margin-bottom: 20px;
+}
+
+#science-colleges .card img[src="11.jpg"] {
+    max-width: 70%;
+    max-height: 170px;
+    margin-bottom: 20px;
+}
+
+#science-colleges .card img[src="10.jpg"] {
+    max-width: 90%;
+    max-height: 140px;
+    margin-bottom: 20px;
+}
+
+#science-colleges .card img[src="8.jpg"] {
+    max-width: 65%;
+    max-height: 150px;
+    margin-bottom: 20px;
+}
+
+#admin-colleges .card img[src="20.jpg"] {
+    max-width: 80%;
+    height: auto;
+}

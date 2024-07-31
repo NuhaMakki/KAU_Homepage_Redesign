@@ -1,0 +1,61 @@
+.map-section body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.map-section .container {
+    display: flex;
+    flex-wrap: wrap;
+    direction: rtl; /* Ensure RTL layout direction */
+    width: 100%; /* Ensure container takes up full width */
+}
+
+.map-section .svg-container {
+    flex: 1; /* Allow the container to take up available space */
+    padding: 10px;
+    margin-right: 0; /* Ensure there's no extra margin on the right */
+}
+
+.map-section .info {
+    position: fixed;
+    top: 50%; /* Center vertically */
+    right: 50px; /* Position info on the left side in RTL */
+    transform: translateY(-50%);
+    width: 30%; /* Adjust width as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    z-index: 999; /* Ensure it's on top */
+    text-align: left; /* Keep text alignment to the left */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+.map-section rect:hover, path:hover {
+    stroke: white;
+    stroke-width: 3px;
+    filter: brightness(1.5); /* Adjust the brightness value as needed (1 is the original brightness, less than 1 is darker) */
+    transition: filter 0.4s;
+}
+
+@media (max-width: 768px) {
+    .map-section .svg-container, .info {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+
+.map-section #infoImage {
+    width: 100%; /* Adjust the width for responsiveness */
+    margin-left: 30px; /* Adjust margin for RTL if needed */
+}
+
+
+.map-section  {
+    flex: 1;
+    background: url('https://cdn.builder.io/api/v1/image/assets/TEMP/ae96be5e1d888242fb5620f02e1ac45c9f5b66020bc39d958c56cdb199acb148?apiKey=3d785f9028a1419199082c5749d898ae&&apiKey=3d785f9028a1419199082c5749d898ae&width=800') no-repeat center center; /* Add the background image */
+    background-size: cover; /* Ensure the background image covers the whole section */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    padding: 10px; /* Add padding */
+}

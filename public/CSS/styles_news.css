@@ -1,0 +1,124 @@
+.news-section body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+}
+.news-section h2 {
+    color: #009900;
+    text-align: right;
+    font-size: 37px;
+    font-weight: bold;
+    position: relative;
+}
+.news-section h2::before {
+    content: url('../img/news_events/Line.png'); /* Replace 'path/to/your/icon.png' with the actual path to your icon image */
+    display: inline-block;
+    width: 20px; /* Adjust the width of the icon if necessary */
+    height: 2px;
+    margin-right: 10px; /* Adjust the spacing between the icon and the text */
+}
+
+.news-section .news {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #009900;
+    height: 500px; /* Fixed height for the events section */
+    overflow-y: auto;
+}
+.news-section .news-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+.news-section .news-item {
+    border-bottom: 1px solid #009900;
+}
+.news-section .news-item:last-child {
+    margin-bottom: 0;
+}
+.news-section .news-image img {
+    width: 220px;
+    height: 125px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.news-section .news-info {
+    flex: 1;
+}
+.news-section .news-info p {
+    margin: 0 0 5px;
+}
+.news-section .bold-green-text {
+    font-size: 18px;
+    font-weight: bold;
+    direction: rtl;
+    color: #009900; 
+}
+.news-section .bold-black-text {
+    font-size: 20px;
+    direction: rtl;
+    font-weight: bold;
+    color: #000000; 
+    padding: 10px;
+}
+.news-section .view-all {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #009900;
+    cursor: pointer;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+}
+.news-section .view-all:hover {
+    text-decoration: underline;
+    color: #009900;
+}
+.events-section .events {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 20px;
+    height: 500px; /* Fixed height for the events section */
+    overflow-y: auto;
+    border: 1px solid #c8c7c7;
+}
+.events-section .event {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+.events-section .event {
+    border-bottom: 1px solid #c8c7c7;
+}
+.events-section .event:last-child {
+    margin-bottom: 0;
+}
+.events-section .event-date {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #f9f9f9;
+    padding: 10px;
+    padding-right:30px;
+    padding-left:30px;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: 1px solid #c8c7c7;
+}
+.events-section .time {
+    color: #8c8a8a; 
+    font-weight: bold;
+}
+.events-section .time::before {
+    content: url('../img/news_events/clock.png'); /* URL to the clock icon image */
+    display: inline-block;
+    width: 20px; /* Adjust the width of the icon */
+    height: 20px; /* Adjust the height of the icon */
+    margin-right: 5px; /* Adjust the spacing between the icon and the time text */
+}
