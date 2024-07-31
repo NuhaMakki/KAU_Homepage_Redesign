@@ -1,0 +1,218 @@
+.life-section * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.life-section body {
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #f5f5f5;
+    flex-direction: column;
+}
+
+.life-section .slider {
+    position: relative;
+    max-width: 1300px; /* Set max-width for the slider */
+    margin: 0 auto; /* Center horizontally */
+    overflow: hidden;
+  }
+  
+  .life-section .images {
+    display: flex;
+    width: 100%;
+  }
+  
+  .life-section .slides {
+    display: flex;
+    width: 300%; /* 100% per image */
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .life-section .slide {
+    flex: 1 0 100%; /* Each slide takes 100% of the container width */
+  }
+  
+  .life-section .slides img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .life-section .images input {
+    display: none;
+  }
+  
+  .life-section #img1:checked ~ .slides {
+    transform: translateX(0%);
+  }
+  
+  .life-section #img2:checked ~ .slides {
+    transform: translateX(-100%);
+  }
+  
+  .life-section #img3:checked ~ .slides {
+    transform: translateX(-200%);
+  }
+  
+  .life-section .dots {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .life-section .dots label {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 3px solid #4f4d4d;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  .life-section .dots label:hover {
+    background: #3d3b3b;
+  }
+  
+
+
+.life-section .div {
+    background-color: #f5f5f5;
+    display: flex;
+    padding-top: 5px;
+    flex-direction: column;
+
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto; /* Center horizontally */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Stack children vertically */
+}
+
+.life-section .div-2 {
+    background-color: #f5f5f5;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 31px 50px 31px 24px;
+}
+
+@media (max-width: 991px) {
+    .life-section .div-2 {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+}
+
+.life-section .div-3 {
+align-self: stretch;
+display: flex;
+width: 100%;
+gap: 20px;
+font-weight: 700;
+justify-content: space-between;
+}
+@media (max-width: 991px) {
+    .life-section .div-3 {
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+}
+
+.life-section .rounded-button-link {
+border-radius: 62px;
+background-color: rgba(186, 159, 106, 1);
+align-self: center;
+display: flex;
+text-wrap: nowrap;
+gap: 12px;
+font-size: 16px;
+color: rgba(255, 255, 255, 1);
+text-align: center;
+padding: 9px 12px;
+margin-left: 25px;
+margin-right: 25px;
+text-decoration: none;
+}
+
+
+
+.life-section .rounded-button-link:hover {
+    background-color: #766537;
+}
+
+.life-section .University-life-link {
+    font-family: Inter, sans-serif;
+    
+}
+
+.life-section .imglink {
+width: 20px;
+height: 20px;
+margin-left: 10px;
+}
+.life-section .div-6 {
+display: flex;
+gap: 20px;
+text-align: right;
+
+}
+@media (max-width: 991px) {
+    .life-section .div-6 {
+  flex-wrap: wrap;
+}
+}
+.life-section .line {
+width: 3px;
+height: 59px;
+margin-top: 5px;
+margin-right: 25px;
+border: 2px solid #7f7f80;
+background-color:#7f7f80 ; /* Add background color */
+}
+
+
+.life-section .University-life-content {
+    color: rgba(0, 0, 0, 0.63);
+    align-self: center;
+    margin-top: 5px;
+    flex-grow: 1;
+    flex-basis: auto;
+    font: 16px Inter, sans-serif;
+   
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: sans-serif, serif;
+
+    text-align: justify;
+  
+    
+}
+
+
+
+.life-section .University-life-text {
+    color: rgb(10, 66, 9);
+    flex-grow: 1;
+    flex-basis: auto;
+    align-self: center;
+
+    margin-top: 5px;
+    font: 32px Inter, sans-serif;
+    
+    font-weight: bold;
+}
+
+.life-section .img-2 {
+    aspect-ratio: 0.93;
+    object-fit: auto;
+    object-position: center;
+    width: 71px;
+    margin-top: 5px;
+}
+
+
+

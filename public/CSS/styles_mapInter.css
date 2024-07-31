@@ -1,0 +1,153 @@
+
+.mapinter-section {
+    background: url('https://cdn.builder.io/api/v1/image/assets/TEMP/ae96be5e1d888242fb5620f02e1ac45c9f5b66020bc39d958c56cdb199acb148?apiKey=3d785f9028a1419199082c5749d898ae&&apiKey=3d785f9028a1419199082c5749d898ae&width=800') no-repeat;
+    background-position: bottom right; /* Position the image at the bottom right */
+    background-size: cover; /* Ensure the image covers the section */
+    /* Ensure the section has some height or content */
+    min-height: 300px; /* Adjust as needed */
+}
+
+
+.mapinter-section body {
+    margin: 0;
+    padding: 0;
+}
+.mapinter-section .content-container {
+    padding: 49px 27px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto; /* Center horizontally */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Stack children vertically */
+}
+
+
+@media (max-width: 991px) {
+    .mapinter-section .content-container {
+        padding: 20px;
+        margin-top: 10px;
+    }
+}
+
+.mapinter-section .main-image {
+    aspect-ratio: 1.14;
+    object-fit: cover;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 42px;
+    border: 6px solid rgba(160, 158, 141, 1);
+    position: absolute;
+    bottom: 100px;
+    left: 40px;
+    transform: translateX(0%);
+    transition: all 0.3s ease; /* Smooth transition */
+    z-index: 10;
+    padding: 10px; /* Added padding to prevent image cut-off */
+}
+
+@media (max-width: 991px) {
+    .mapinter-section .main-image {
+        position: static;
+        margin: 0 auto; /* Center horizontally */
+        display: block; /* Ensure block display for centering */
+        max-width: 100%;
+        bottom: auto; /* Remove absolute positioning */
+        padding: 0; /* Remove padding for smaller screens */
+        margin-top: 10px;
+
+    }
+}
+
+.mapinter-section .section-title {
+    color: rgba(27, 116, 25, 1);
+    font: 700 32px Inter, sans-serif;
+    text-align: right;
+}
+
+
+
+.mapinter-section .section-divider {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 1px;
+    width: 100%;
+    max-width: 250px;
+    border: 1px solid rgb(37, 35, 35);
+}
+@media (max-width: 991px) {
+    .mapinter-section .section-divider {
+        max-width: 990px;
+
+
+    }
+}
+
+.mapinter-section .yellow-circle, .cyan-circle, .orange-circle, .green-circle {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+}
+
+.mapinter-section .yellow-circle {
+    background-color: rgb(255, 230, 0);
+}
+
+.mapinter-section .cyan-circle {
+    background-color: rgb(9, 169, 167);
+}
+
+.mapinter-section .orange-circle {
+    background-color: rgb(233, 116, 0);
+}
+
+.mapinter-section .green-circle {
+    background-color: rgb(98, 255, 151);
+}
+
+.mapinter-section .black-triangle {
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 24px solid rgb(44, 46, 46);
+}
+
+.mapinter-section .list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.mapinter-section .list-item-text {
+    margin-right: 15px;
+    color: black;
+    font-weight:400;
+    font-size: 20px;
+}
+
+.mapinter-section .custom-background {
+    background-color:#f5f5f5;
+    border-radius: 2%;
+    padding: 20px;
+    position: relative;
+    z-index: 5;
+    max-width: 1300px;
+}
+
+
+
+.mapinter-section .custom-background2 {
+    height: 620px;
+    
+}
+
+@media (max-width: 991px) {
+    .mapinter-section .custom-background2 {
+        height: auto;
+
+    }
+}

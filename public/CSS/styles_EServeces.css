@@ -1,0 +1,94 @@
+.Eser-section body {
+    background-color: rgb(255, 255, 255);
+    direction: rtl;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .Eser-section  .header-text {
+    color: #1B7419;
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  .Eser-section .description-text {
+    text-align: right;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .Eser-section .custom-img {
+    width: 64px;
+    height: 64px;
+  }
+
+  .Eser-section .custom-button {
+    background: #BA9F6A;
+    border-radius: 62px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .Eser-section .custom-button img {
+    width: 20px;
+    height: 10px;
+  }
+
+  .Eser-section .dropbtn {
+    background-color: #BA9F6A;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 100%; /* Full width */
+    height: 90px;
+    border-radius: 0;
+    font-weight: bold;
+  }
+
+  .Eser-section .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+    border: 2px solid #BA9F6A;
+    min-width: 150px;
+  }
+
+  .Eser-section .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .Eser-section .dropdown-content a:hover {
+    background-color: #ffffff;
+  }
+
+  .Eser-section  .show {
+    display: block;
+  }
+
+  .Eser-section .dropdown-container {
+    display: flex;
+    flex-wrap: nowrap;
+    
+  }
+
+  .Eser-section .dropdown {
+    flex: 1;
+    position: relative;
+  }
+
+  .Eser-section .dropdown:not(:last-child) .dropbtn {
+    border-left: none;
+  }
