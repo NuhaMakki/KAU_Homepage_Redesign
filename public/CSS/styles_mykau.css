@@ -20,7 +20,7 @@
     width: 900px;
     padding: 20px;
     border-radius: 15px;
-    background: linear-gradient(135deg, #659062, #56734C);
+    background: linear-gradient(135deg, #90a192, #31515E);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
 
@@ -41,7 +41,7 @@
     color: #ffffff;
     text-decoration: none;
     text-align: center;
-    font-family: Arial, sans-serif;
+    font-family:  sans-serif;
   }
 
   .mykau-section .button img {

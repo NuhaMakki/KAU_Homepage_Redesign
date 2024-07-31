@@ -1,3 +1,6 @@
+
+
+
 .collges-section body {
     font-family: Arial, sans-serif;
     height: 100vh;
@@ -11,6 +14,7 @@
     margin-bottom: 30px;
     color: #114e04;
     margin: 80px auto; 
+    text-align: right; /* Align text to the right */
 
 }
 
@@ -28,6 +32,8 @@
     height: auto;
     z-index: -1; /* Ensure it appears above other content */
 }
+
+
 
 
 

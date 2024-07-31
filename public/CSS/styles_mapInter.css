@@ -1,10 +1,21 @@
-
 .mapinter-section {
-    background: url('https://cdn.builder.io/api/v1/image/assets/TEMP/ae96be5e1d888242fb5620f02e1ac45c9f5b66020bc39d958c56cdb199acb148?apiKey=3d785f9028a1419199082c5749d898ae&&apiKey=3d785f9028a1419199082c5749d898ae&width=800') no-repeat;
-    background-position: bottom right; /* Position the image at the bottom right */
+    position: relative; /* Ensure positioning context for pseudo-element */
+    min-height: 300px; /* Ensure the section has some height */
+    overflow: hidden; /* Ensure content stays within boundaries */
+}
+
+.mapinter-section::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%; /* Full width */
+    max-width: 1300px; /* Constrain max width */
+    height: 100%;
+    background: url('https://cdn.builder.io/api/v1/image/assets/TEMP/ae96be5e1d888242fb5620f02e1ac45c9f5b66020bc39d958c56cdb199acb148?apiKey=3d785f9028a1419199082c5749d898ae&&apiKey=3d785f9028a1419199082c5749d898ae&width=800') no-repeat bottom center;
     background-size: cover; /* Ensure the image covers the section */
-    /* Ensure the section has some height or content */
-    min-height: 300px; /* Adjust as needed */
+    pointer-events: none; /* Ensure background doesn't interfere with content */
 }
 
 
