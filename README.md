@@ -21,7 +21,7 @@ This project was developed during my summer training at **General Administration
 
 ### 🌍 Interactive Map
 ![map](KAU_Homepage_Project/Map.png)
-[![Watch Video](KAU_Homepage_Project/Map.mp)](link-to-your-video)
+[![Watch Video](KAU_Homepage_Project/Map.mp4)](KAU_Homepage_Project/Map.mp4)
 
 ### 🔄 Before & After
 - [Old KAU Homepage](link-to-old-homepage)
