@@ -23,7 +23,8 @@ This project was developed during my summer training at **General Administration
 <p align="center"> <img src="KAU_Homepage_Project/Map.png" width="80%" alt="KAU Interactive Map"> </p>
 
 ### 📽️ Video Demo
-https://user-images.githubusercontent.com/NuhaMakki/KAU_Homepage_Project/Map.mp4
+https://raw.githubusercontent.com/NuhaMakki/KAU_Map/main/KAU_Homepage_Project/Map.mp4
+
 [![Watch Video](https://drive.google.com/file/d/175P-GXr0gPVjKRgiLVjEiIWOtyBdBPJR/view?usp=sharing)](https://drive.google.com/file/d/175P-GXr0gPVjKRgiLVjEiIWOtyBdBPJR/view?usp=sharing)
 
 ### 🔄 Before & After
@@ -41,7 +42,6 @@ This project provided valuable hands-on experience in **web development and UI/U
 ## 📬 Connect with Me
 If you have any questions or suggestions, feel free to connect!
 
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?logo=github)](https://github.com/NuhaMakki)  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/nuha-makki-a3b15a2b9/)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?logo=github)](https://github.com/NuhaMakki)  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/nuha-makki-a3b15a2b9/) [![Email](https://img.shields.io/badge/Email-mail-blue?logo=gmail)](mailto:noha.m.makki@gmail.com)
 
- [![Email](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=Email)](mailto:\noha.m.makki@gmail.com)
 
