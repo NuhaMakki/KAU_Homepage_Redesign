@@ -22,18 +22,12 @@ This project was developed during my summer training at **General Administration
 ### 🌍 Interactive Map
 <p align="center"> <img src="KAU_Homepage_Project/Map.png" width="80%" alt="KAU Interactive Map"> </p>
 
-### 📽️ Video Demo
-### 📽️ Video Demo  
-[![Watch Video](KAU_Homepage_Project/Map.png)](https://raw.githubusercontent.com/NuhaMakki/KAU_Map/main/KAU_Homepage_Project/Map.mp4)
-[![Watch the video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
-![KAU Interactive Map](KAU_Homepage_Project/Map.gif)
-
-
+### 📽️ Map Demo
 🎥 [Watch the Interactive Map Video](https://raw.githubusercontent.com/NuhaMakki/KAU_Map/main/KAU_Homepage_Project/Map.mp4)
 
 
 ### 🔄 Before & After
-- [Old KAU Homepage](link-to-old-homepage)
+- [Old KAU Homepage](https://www.kau.edu.sa/home_english.aspx)
 - [New Redesigned Homepage](link-to-new-homepage)
 
 ## 📌 Features Implemented
