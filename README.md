@@ -35,7 +35,7 @@ This project was developed during my summer training at **General Administration
 
 - <a href="viwe/homepage2.html" target="_blank">New Redesigned Homepage</a>
 
-- [New Redesigned Homepage](https://github.com/your-repo/viwe/homepage2.html)
+- [New Redesigned Homepage](https://github.com/KAU_Map/viwe/homepage2.html)
 
 
 ## 📌 Features Implemented
