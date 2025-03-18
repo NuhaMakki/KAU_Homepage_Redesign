@@ -1,6 +1,6 @@
 # KAU Homepage Redesign
 
-![KAU Homepage](path-to-your-image)
+![KAU Homepage](KAU_Homepage_Project/header.png)
 
 ## 🚀 Project Overview
 This project was developed during my summer training at **General Administration of Information Technology (GAIT)** at **King Abdulaziz University (KAU)**. The project aimed to **enhance the user experience and functionality** of the KAU homepage through redesign and the integration of new features.
@@ -17,10 +17,11 @@ This project was developed during my summer training at **General Administration
 
 ## 📸 Screenshots & Media
 ### 📌 Benchmarking Analysis
-![Benchmarking](path-to-your-benchmarking-image)
+![Benchmarking](KAU_Homepage_Project/Benchmarking.png)
 
 ### 🌍 Interactive Map
-[![Watch Video](path-to-your-video-thumbnail)](link-to-your-video)
+![map](KAU_Homepage_Project/Map.png)
+[![Watch Video](KAU_Homepage_Project/Map.mp)](link-to-your-video)
 
 ### 🔄 Before & After
 - [Old KAU Homepage](link-to-old-homepage)
@@ -37,5 +38,5 @@ This project provided valuable hands-on experience in **web development and UI/U
 ## 📬 Connect with Me
 If you have any questions or suggestions, feel free to connect!
 
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?logo=github)](your-github-profile-link)  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](your-linkedin-profile-link)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?logo=github)](https://github.com/NuhaMakki)  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/nuha-makki-a3b15a2b9/)
 
