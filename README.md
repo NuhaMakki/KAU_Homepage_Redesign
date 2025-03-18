@@ -1,7 +1,5 @@
 # KAU Homepage Redesign
 
-<p align="center"> <img src="KAU_Homepage_Project/header.png" width="80%" alt="KAU Homepage"> </p>
-
 ## 🚀 Project Overview
 This project was developed during my summer training at **General Administration of Information Technology (GAIT)** at **King Abdulaziz University (KAU)**. The project aimed to **enhance the user experience and functionality** of the KAU homepage through redesign and the integration of new features.
 
@@ -21,6 +19,7 @@ This project was developed during my summer training at **General Administration
 
 ### ✨ Redesigned Homepage
 - 🔥 [Check Out the New Look!](https://nuhamakki.github.io/KAU_Map/view/homepage2.html)
+<p align="center"> <img src="KAU_Homepage_Project/header.png" width="80%" alt="KAU Homepage"> </p>
 
 ### 🌍 Interactive Map
 - 🔥 [Visit the Interactive Map!](https://nuhamakki.github.io/KAU_Map/view/Map.html)
@@ -28,7 +27,9 @@ This project was developed during my summer training at **General Administration
 <p align="center"> <img src="KAU_Homepage_Project/Map.png" width="80%" alt="KAU Interactive Map"> </p>
 
 ### 📽️ Map Demo
-<p align="center"> <img src="(KAU_Homepage_Project/Map.gif" width="80%" alt="KAU Interactive Map"> </p>
+<p align="center">
+    <img src="KAU_Homepage_Project/Map.gif" alt="KAU Interactive Map">
+</p>
 
 
 
