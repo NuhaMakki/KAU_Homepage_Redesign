@@ -23,15 +23,10 @@ This project was developed during my summer training at **General Administration
 <p align="center"> <img src="KAU_Homepage_Project/Map.png" width="80%" alt="KAU Interactive Map"> </p>
 
 ### 📽️ Video Demo
-### 📽️ Video Demo  
 <video width="80%" controls>
   <source src="https://raw.githubusercontent.com/NuhaMakki/KAU_Map/main/KAU_Homepage_Project/Map.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-
-https://raw.githubusercontent.com/NuhaMakki/KAU_Map/main/KAU_Homepage_Project/Map.mp4
-
-[![Watch Video](https://drive.google.com/file/d/175P-GXr0gPVjKRgiLVjEiIWOtyBdBPJR/view?usp=sharing)](https://drive.google.com/file/d/175P-GXr0gPVjKRgiLVjEiIWOtyBdBPJR/view?usp=sharing)
 
 ### 🔄 Before & After
 - [Old KAU Homepage](link-to-old-homepage)
