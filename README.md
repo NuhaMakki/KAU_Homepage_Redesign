@@ -38,7 +38,7 @@ This project was developed during my summer training at **General Administration
 ### 📽️ Map Demo
 <p align="center">
   <a href="https://nuhamakki.github.io/KAU_Homepage_Redesign/view/Map.html" target="_blank">
-    <img src="KAU_Homepage_Project/Map.gif" alt="KAU Interactive Map">
+    <img src="KAU_Homepage_Project/Map.gif" width="80%" alt="KAU Interactive Map">
   </a>
 </p>
 
@@ -54,6 +54,6 @@ This project provided valuable hands-on experience in **web development and UI/U
 ## 📬 Connect with Me
 If you have any questions or suggestions, feel free to connect!
 
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?logo=github)](https://github.com/NuhaMakki) [![Email](https://img.shields.io/badge/Email-mail-blue?logo=gmail)](mailto:noha.m.makki@gmail.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nuha-makki-a3b15a2b9/)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?logo=github)](https://github.com/NuhaMakki) [![Email](https://img.shields.io/badge/Email-mail-blue?logo=gmail)](mailto:noha.m.makki@gmail.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nuha-makki-a3b15a2b9/)
 
 
