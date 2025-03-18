@@ -25,6 +25,8 @@ This project was developed during my summer training at **General Administration
 ### 📽️ Video Demo
 ### 📽️ Video Demo  
 [![Watch Video](KAU_Homepage_Project/Map.png)](https://raw.githubusercontent.com/NuhaMakki/KAU_Map/main/KAU_Homepage_Project/Map.mp4)
+[![Watch the video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
+![KAU Interactive Map](KAU_Homepage_Project/Map.gif)
 
 
 🎥 [Watch the Interactive Map Video](https://raw.githubusercontent.com/NuhaMakki/KAU_Map/main/KAU_Homepage_Project/Map.mp4)
