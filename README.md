@@ -23,7 +23,9 @@ This project was developed during my summer training at **General Administration
 <p align="center"> <img src="KAU_Homepage_Project/Map.png" width="80%" alt="KAU Interactive Map"> </p>
 
 ### 📽️ Map Demo
-![KAU Interactive Map](KAU_Homepage_Project/Map.gif)
+<p align="center">
+    <img src="KAU_Homepage_Project/Map.gif" alt="KAU Interactive Map">
+</p>
 
 <p align="center"> <img src="(KAU_Homepage_Project/Map.gif" width="80%" alt="KAU Interactive Map"> </p>
 
