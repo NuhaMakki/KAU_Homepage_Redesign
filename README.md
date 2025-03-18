@@ -1,5 +1,5 @@
 # KAU Homepage Redesign
-<p align="center"> <img src="KAU_Homepage_Project/King_Abdulaziz_University_logo.png" width="80%" alt="Benchmarking Analysis"> </p>
+<p align="center"> <img src="KAU_Homepage_Project/King_Abdulaziz_University_logo.png" width="20%" alt="Benchmarking Analysis"> </p>
 
 ## 🚀 Project Overview
 This project was developed during my summer training at **General Administration of Information Technology (GAIT)** at **King Abdulaziz University (KAU)**. The project aimed to **enhance the user experience and functionality** of the KAU homepage through redesign and the integration of new features.
