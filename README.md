@@ -33,6 +33,11 @@ This project was developed during my summer training at **General Administration
 - [Old KAU Homepage](https://www.kau.edu.sa/home_english.aspx)
 - [New Redesigned Homepage](link-to-new-homepage)
 
+- <a href="viwe/homepage2.html" target="_blank">New Redesigned Homepage</a>
+
+- [New Redesigned Homepage](https://github.com/your-repo/viwe/homepage2.html)
+
+
 ## 📌 Features Implemented
 - ✅ Improved **UI/UX** with a modern design.
 - ✅ Integrated **interactive map** for better campus navigation.
