@@ -28,14 +28,11 @@ This project was developed during my summer training at **General Administration
 </p>
 
 <p align="center"> <img src="(KAU_Homepage_Project/Map.gif" width="80%" alt="KAU Interactive Map"> </p>
+- 🔥 [Visit the Interactive Map](https://nuhamakki.github.io/KAU_Map/view/Map.html)
 
-### 🔄 Before & After
-- [Old KAU Homepage](https://www.kau.edu.sa/home_english.aspx)
-- [New Redesigned Homepage](link-to-new-homepage)
+### ✨ Redesigned Homepage
+- 🔥 [Check Out the New Look!](https://nuhamakki.github.io/KAU_Map/view/homepage2.html)
 
-- <a href="viwe/homepage2.html" target="_blank">New Redesigned Homepage</a>
-
-- [New Redesigned Homepage](https://github.com/KAU_Map/viwe/homepage2.html)
 
 
 ## 📌 Features Implemented
