@@ -1,6 +1,6 @@
 # KAU Homepage Redesign
 
-![KAU Homepage](KAU_Homepage_Project/header.png)
+<p align="center"> <img src="KAU_Homepage_Project/header.png" width="80%" alt="KAU Homepage"> </p>
 
 ## 🚀 Project Overview
 This project was developed during my summer training at **General Administration of Information Technology (GAIT)** at **King Abdulaziz University (KAU)**. The project aimed to **enhance the user experience and functionality** of the KAU homepage through redesign and the integration of new features.
