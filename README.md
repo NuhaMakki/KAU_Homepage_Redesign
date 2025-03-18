@@ -43,3 +43,5 @@ If you have any questions or suggestions, feel free to connect!
 
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?logo=github)](https://github.com/NuhaMakki)  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/nuha-makki-a3b15a2b9/)
 
+ [![Email](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=Email)](mailto:\noha.m.makki@gmail.com)
+
