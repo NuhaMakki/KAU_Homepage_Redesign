@@ -54,7 +54,8 @@ This project provided valuable hands-on experience in **web development and UI/U
 ## 📬 Connect with Me
 If you have any questions or suggestions, feel free to connect!
 
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?logo=github)](https://github.com/NuhaMakki) [![Email](https://img.shields.io/badge/Email-mail-blue?logo=gmail)](mailto:noha.m.makki@gmail.com) [![LinkedIn](https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo_2013.png)](https://www.linkedin.com/in/nuha-makki-a3b15a2b9/)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?logo=github)](https://github.com/NuhaMakki) [![Email](https://img.shields.io/badge/Email-mail-blue?logo=gmail)](mailto:noha.m.makki@gmail.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/nuha-makki-a3b15a2b9/)
+
 
 
 
