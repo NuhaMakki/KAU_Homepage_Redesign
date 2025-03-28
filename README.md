@@ -5,14 +5,14 @@
 This project was developed during my summer training at **General Administration of Information Technology (GAIT)** at **King Abdulaziz University (KAU)**. The project aimed to **enhance the user experience and functionality** of the KAU homepage through redesign and the integration of new features.
 
 ## 🎯 Key Objectives
-✔ **Benchmarking Analysis** – Compared KAU’s homepage with top global and Arabic university websites to identify areas for improvement.  
-✔ **UI/UX Enhancement** – Created a **modern, user-friendly design** using **Figma**.  
-✔ **Interactive Map Integration** – Developed a **new interactive map** to help female students locate essential campus facilities, such as:  
-   - 🏫 **Libraries**  
-   - 🍽️ **Cafeterias**  
-   - 💳 **ATMs**  
-   - 🏥 **Medical Centers**  
-✔ **Front-End Development** – Implemented the redesigned homepage using **HTML, JavaScript, and CSS**.
+- ✅ **Benchmarking Analysis** – Compared KAU’s homepage with top global and Arabic university websites to identify areas for improvement.  
+- ✅ **UI/UX Enhancement** – Created a **modern, user-friendly design** using **Figma**.  
+- ✅ **Interactive Map Integration** – Developed a **new interactive map** to help female students locate essential campus facilities, such as:  
+      - 🏫 **Libraries**  
+      - 🍽️ **Cafeterias**  
+      - 💳 **ATMs**  
+      - 🏥 **Medical Centers**  
+- ✅ **Front-End Development** – Implemented the redesigned homepage using **HTML, JavaScript, and CSS**.
 
 ## 🛠️ Tech Stack
 - **Frontend:** HTML, CSS, JavaScript, Bootstrap
@@ -70,16 +70,14 @@ This project provided valuable hands-on experience in **web development and UI/U
 ## 📬 Connect with Me
 If you have any questions or suggestions, feel free to connect!
 
-
-
 <p align="center">
-  <a href="https://github.com/NuhaMakki" target="_blank">
+  <a href="https://github.com/NuhaMakki" target="_blank" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   </a>
-  <a href="mailto:noha.m.makki@gmail.com">
+  <a href="mailto:noha.m.makki@gmail.com" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
-  <a href="https://www.linkedin.com/in/nuha-makki-a3b15a2b9/" target="_blank">
+  <a href="https://www.linkedin.com/in/nuha-makki-a3b15a2b9/" target="_blank" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
 </p>
