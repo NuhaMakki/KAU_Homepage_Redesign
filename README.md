@@ -5,16 +5,32 @@
 This project was developed during my summer training at **General Administration of Information Technology (GAIT)** at **King Abdulaziz University (KAU)**. The project aimed to **enhance the user experience and functionality** of the KAU homepage through redesign and the integration of new features.
 
 ## 🎯 Key Objectives
-- **Benchmarking Analysis:** Compared KAU's homepage with top global and Arabic university websites.
-- **Redesign & UI/UX Enhancement:** Used **Figma** to create a modern and user-friendly homepage.
-- **Interactive Map Integration:** Developed a **new interactive map** for the female student section, providing navigation to key facilities (cafeterias, libraries, ATMs, etc.).
-- **Web Development:** Implemented the redesigned homepage using **HTML, JavaScript, and CSS**.
+✔ **Benchmarking Analysis** – Compared KAU’s homepage with top global and Arabic university websites to identify areas for improvement.  
+✔ **UI/UX Enhancement** – Created a **modern, user-friendly design** using **Figma**.  
+✔ **Interactive Map Integration** – Developed a **new interactive map** to help female students locate essential campus facilities, such as:  
+   - 🏫 **Libraries**  
+   - 🍽️ **Cafeterias**  
+   - 💳 **ATMs**  
+   - 🏥 **Medical Centers**  
+✔ **Front-End Development** – Implemented the redesigned homepage using **HTML, JavaScript, and CSS**.
 
 ## 🛠️ Tech Stack
 - **Frontend:** HTML, CSS, JavaScript, Bootstrap
 - **Design Tools:** Figma
 
+## 🚀 Getting Started  
+To explore the project:  
+1️⃣ Clone the repository:  
+   ```sh  
+   git clone https://github.com/NuhaMakki/KAU_Homepage_Redesign.git
+  ``` 
+2️⃣ Open `index.html` in a browser.  
+
+Or visit the **live version**:  
+🔗 [KAU Homepage Redesign](https://nuhamakki.github.io/KAU_Homepage_Redesign/view/homepage2.html)  
+
 ## 📸 Screenshots & Media
+
 ### 📌 Benchmarking Analysis
 <p align="center"> <img src="KAU_Homepage_Project/Benchmarking.png" width="80%" alt="Benchmarking Analysis"> </p>
 
@@ -27,7 +43,7 @@ This project was developed during my summer training at **General Administration
 </p>
 
 ### 🌍 Interactive Map
-- 🔥 [Visit the Interactive Map!](https://nuhamakki.github.io/KAU_Map/view/Map.html)
+- 🔥 [Explore the Interactive Map!](https://nuhamakki.github.io/KAU_Map/view/Map.html)
 
 <p align="center">
   <a href="https://nuhamakki.github.io/KAU_Homepage_Redesign/view/Map.html" target="_blank">
@@ -54,8 +70,18 @@ This project provided valuable hands-on experience in **web development and UI/U
 ## 📬 Connect with Me
 If you have any questions or suggestions, feel free to connect!
 
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?logo=github)](https://github.com/NuhaMakki) [![Email](https://img.shields.io/badge/Email-mail-blue?logo=gmail)](mailto:noha.m.makki@gmail.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/nuha-makki-a3b15a2b9/)
 
 
+<p align="center">
+  <a href="https://github.com/NuhaMakki" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+  <a href="mailto:noha.m.makki@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
+  <a href="https://www.linkedin.com/in/nuha-makki-a3b15a2b9/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+</p>
 
 
