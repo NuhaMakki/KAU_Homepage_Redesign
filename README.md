@@ -84,8 +84,8 @@ If you have any questions or suggestions, feel free to connect!
   </a>
 </p>
 
-<a href="https://instagram.com/pradeeptintali" rel="nofollow">
-  <img align="left" alt="Pradeep's Instagram" width="22px" src="https://camo.githubusercontent.com/244329e1cd0f15c0eed9758dd658283c96f9f4fcbdbc89b4031fc25f7fb1d881/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f612f61352f496e7374616772616d5f69636f6e2e706e672f3130323470782d496e7374616772616d5f69636f6e2e706e67" data-canonical-src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png" style="max-width: 100%;">
+<a href="https://github.com/NuhaMakki" rel="nofollow">
+  <img align="left" alt="Nuha's GitHub" width="22px" src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white"  style="max-width: 100%;">
 </a>
 
 <a href="https://instagram.com/pradeeptintali" rel="nofollow">
