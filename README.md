@@ -8,10 +8,10 @@ This project was developed during my summer training at **General Administration
 - ✅ **Benchmarking Analysis:** Compared KAU’s homepage with top global and Arabic university websites to identify areas for improvement.  
 - ✅ **UI/UX Enhancement:** Created a **modern, user-friendly design** using **Figma**.  
 - ✅ **Interactive Map Integration:** Developed a **new interactive map** to help female students locate essential campus facilities, such as:  
-      -- 🏫 **Libraries**  
-      -- 🍽️ **Cafeterias**  
-      -- 💳 **ATMs**  
-      -- 🏥 **Medical Centers**  
+        - 🏫 **Libraries**  
+        - 🍽️ **Cafeterias**  
+        - 💳 **ATMs**  
+        - 🏥 **Medical Centers**  
 - ✅ **Front-End Development:** Implemented the redesigned homepage using **HTML, JavaScript, and CSS**.
 
 ## 🛠️ Tech Stack
