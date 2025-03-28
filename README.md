@@ -72,7 +72,7 @@ This project provided valuable hands-on experience in **web development and UI/U
 ## 📬 Connect with Me
 If you have any questions or suggestions, feel free to connect!
 
-<p align="center">
+<div align="center">
 
 <a href="mailto:noha.m.makki@gmail.com" rel="nofollow">
   <img align="left" alt="Nuha's Email" width="95px" src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"  style="max-width: 100%;">
@@ -86,5 +86,5 @@ If you have any questions or suggestions, feel free to connect!
   <img align="left" alt="Nuha's GitHub" width="95px" src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white"  style="max-width: 100%;">
 </a>
 
-</p>
+</div>
 
