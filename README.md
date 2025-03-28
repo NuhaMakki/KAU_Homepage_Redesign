@@ -73,13 +73,13 @@ This project provided valuable hands-on experience in **web development and UI/U
 If you have any questions or suggestions, feel free to connect!
 
 <p align="center">
-  <a href="https://github.com/NuhaMakki" target="_blank" style="text-decoration: none;">
+  <a href="https://github.com/NuhaMakki" rel="nofollow">
     <img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   </a>
-  <a href="mailto:noha.m.makki@gmail.com" style="text-decoration: none;">
+  <a href="mailto:noha.m.makki@gmail.com" rel="nofollow">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
-  <a href="https://www.linkedin.com/in/nuha-makki-a3b15a2b9/" target="_blank" style="text-decoration: none;">
+  <a href="https://www.linkedin.com/in/nuha-makki-a3b15a2b9/" target="_blank" rel="nofollow">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
 </p>
